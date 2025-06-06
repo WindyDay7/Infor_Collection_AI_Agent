@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+openai
+python-dotenv
+playwright  # optional
+langchain   # optional if using OpenAI directly
