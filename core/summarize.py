@@ -1,11 +1,8 @@
 ### core/summarize.py
 
-import os
-import openai
-from dotenv import load_dotenv
-
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+from openai import OpenAI
+from config import settings
+from core.logger import logger
 
 def summarize_article(article_meta: dict, article_text: str) -> str:
     """
@@ -16,8 +13,9 @@ def summarize_article(article_meta: dict, article_text: str) -> str:
     source = article_meta.get("source", "Unknown Source")
     date = article_meta.get("date", "")
 
+    # You are a helpful news summarizer. Given the following article, produce a short and informative Markdown summary
     prompt = f"""
-    You are a helpful news summarizer. Given the following article, produce a short and informative Markdown summary:
+    下面是一篇 AI 相关的文章, 请抽取其中的关键信息, 然后生成总结性的摘要.:
 
     Title: {title}
     Source: {source}
@@ -26,23 +24,62 @@ def summarize_article(article_meta: dict, article_text: str) -> str:
 
     Article:
     """
-    {article_text[:3000]}
+    {article_text[:30000]}
     """
 
     Summary:
     """
 
-    try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7,
-            max_tokens=300
-        )
-        summary = response.choices[0].message["content"]
-        return f"## [{title}]({link})\n\n{summary}\n"
-    except Exception as e:
-        print(f"❌ OpenAI summarization failed: {e}")
-        return f"## [{title}]({link})\n\n_Summary failed._\n"
+    client_open_router = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=settings.OPEN_ROUTER_API_KEY, # OpenRouter API Key
+    )
+
+    client_ali_mota = OpenAI(
+        base_url='https://api-inference.modelscope.cn/v1/',
+        api_key=settings.MOTA_API_KEY, # ModelScope Token
+    )
+
+    open_router_models = settings.MODELS.get("open_router_models", []).split(',')
+    ali_mota_models = settings.MODELS.get("ali_mota_models", []).split(',')
+
+
+    # first try ModelScope Open router
+    for model in open_router_models:
+        model = model.strip()
+        try:
+            response = client_open_router.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=30000
+            )
+            summary = response.choices[0].message.content
+            logger.info(f"✅ OpenRouter summarization successful with model {model}")
+            return f"## [{title}]({link})\n\n{summary}\n"
+        except Exception as e:
+            logger.warning(f"❌ OpenRouter summarization failed with model {model}: {e}")
+
+    # if OpenRouter fails, try ModelScope MOTA
+    for model in ali_mota_models:
+        model = model.strip()
+        try:
+            response = client_ali_mota.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=8192,  # MOTA has a max token limit of 8192
+            )
+            summary = response.choices[0].message.content
+            logger.info(f"✅ ModelScope MOTA summarization successful with model {model}")
+            return f"## [{title}]({link})\n\n{summary}\n"
+
+        except Exception as e:
+            logger.warning(f"❌ ModelScope MOTA summarization failed with model {model}: {e}")
+    
+    logger.error("❌ All summarization attempts failed.")
+    return f"## [{title}]({link})\n\nFailed to summarize the article.\n"

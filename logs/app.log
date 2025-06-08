@@ -1,0 +1,186 @@
+2025-06-07 15:30:42,778 [WARNING] ❌ Error fetching URL: https://www.businesswire.com/news/home/20250508052824/en/ACI-Worldwide-Inc.-Reports-Financial-Results-for-the-Quarter-Ending-March-31-2025
+403 Client Error: Forbidden for url: https://www.businesswire.com/news/home/20250508052824/en/ACI-Worldwide-Inc.-Reports-Financial-Results-for-the-Quarter-Ending-March-31-2025
+2025-06-07 15:31:06,798 [WARNING] Could not extract main content for Redefining fintech: can Agentic AI lead the way in innovation?
+2025-06-07 15:31:07,357 [WARNING] ❌ Error fetching URL: https://fox5sandiego.com/business/press-releases/globenewswire/9462307/vic-ai-launches-vicpay-vendor-portal-and-vicagents-introducing-agentic-ai-partners-for-enterprise-finance
+403 Client Error: Forbidden for url: https://fox5sandiego.com/business/press-releases/globenewswire/9462307/vic-ai-launches-vicpay-vendor-portal-and-vicagents-introducing-agentic-ai-partners-for-enterprise-finance
+2025-06-07 15:31:15,531 [WARNING] Could not extract main content for Vic.ai Launches VicPay™, Vendor Portal, and VicAgents™, Introducing Agentic AI Partners for Enterprise Finance
+2025-06-07 15:35:19,078 [WARNING] ❌ Error fetching URL: https://www.businesswire.com/news/home/20250602138235/en/ThetaRay-and-Spayce-Partner-to-Combat-Financial-Crime-and-Secure-Global-Payments-with-Cognitive-AI
+403 Client Error: Forbidden for url: https://www.businesswire.com/news/home/20250602138235/en/ThetaRay-and-Spayce-Partner-to-Combat-Financial-Crime-and-Secure-Global-Payments-with-Cognitive-AI
+2025-06-07 15:35:51,893 [WARNING] ❌ Error fetching URL: https://azure.microsoft.com/en-us/blog/new-ai-innovations-that-are-redefining-the-future-for-software-companies/
+HTTPSConnectionPool(host='azure.microsoft.com', port=443): Read timed out. (read timeout=10)
+2025-06-07 15:37:03,796 [WARNING] ❌ Error fetching URL: https://www.douglas.co.us/learn-about-douglas-countys-cutting-edge-wildfire-response-technology-including-new-ai-detection-system/
+403 Client Error: Forbidden for url: https://www.douglas.co.us/learn-about-douglas-countys-cutting-edge-wildfire-response-technology-including-new-ai-detection-system/
+2025-06-08 07:46:19,588 [INFO] Starting news agent...
+2025-06-08 07:46:29,959 [INFO] Processing article 1: Klarna与Visa在Money 2020 Europe 上试点推出灵活性更强的新型借记卡
+2025-06-08 07:46:30,309 [WARNING] ❌ Error fetching URL: https://www.businesswire.com/news/home/20250603229135/zh-CN
+403 Client Error: Forbidden for url: https://www.businesswire.com/news/home/20250603229135/zh-CN
+2025-06-08 07:46:32,122 [INFO] patching driver executable /home/windyday/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-06-08 07:46:32,517 [INFO] setting properties for headless
+2025-06-08 07:46:37,325 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:46:39,532 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:46:39,534 [INFO] Article 1 processed successfully.
+2025-06-08 07:46:39,535 [INFO] Processing article 2: Visa、PayPal、Mastercard押注智能体支付，你愿意把钱包交给AI吗？
+2025-06-08 07:46:44,193 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:46:55,447 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:46:55,450 [INFO] Article 2 processed successfully.
+2025-06-08 07:46:55,451 [INFO] Processing article 3: AI与金融科技赋能 跨境支付助外贸企业“扬帆出海”
+2025-06-08 07:47:00,373 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:03,242 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:03,244 [INFO] Article 3 processed successfully.
+2025-06-08 07:47:03,245 [INFO] Processing article 4: AR智能眼镜基础交互困局突围：AI+摄像头破局支付场景
+2025-06-08 07:47:07,951 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:17,592 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:17,599 [INFO] Article 4 processed successfully.
+2025-06-08 07:47:17,601 [INFO] Processing article 5: 跨境晚报：跨境支付智能化跃迁：连连国际如何用AI重构全球贸易服务生态？｜AI竞争力访谈- 栏目
+2025-06-08 07:47:21,572 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:29,810 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:29,813 [INFO] Article 5 processed successfully.
+2025-06-08 07:47:29,814 [INFO] News agent completed for query: 智能支付
+2025-06-08 07:47:29,814 [INFO] Processing article 1: Run LLMs on AnythingLLM Faster With NVIDIA RTX AI PCs
+2025-06-08 07:47:32,866 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:37,439 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:37,442 [INFO] Article 1 processed successfully.
+2025-06-08 07:47:37,443 [INFO] Processing article 2: The AI Model Showdown — Which LLM Deserves Your Trust?
+2025-06-08 07:47:42,215 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:49,247 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:49,250 [INFO] Article 2 processed successfully.
+2025-06-08 07:47:49,251 [INFO] Processing article 3: LLMs and AI Aren't the Same. Everything You Should Know About What's Behind Chatbots
+2025-06-08 07:47:53,204 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:47:59,358 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:47:59,361 [INFO] Article 3 processed successfully.
+2025-06-08 07:47:59,363 [INFO] Processing article 4: Benchmarking LLMs: A guide to AI model evaluation
+2025-06-08 07:48:02,582 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:48:05,091 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:48:05,093 [INFO] Article 4 processed successfully.
+2025-06-08 07:48:05,094 [INFO] Processing article 5: When your LLM calls the cops: Claude 4’s whistle-blow and the new agentic AI risk stack
+2025-06-08 07:48:09,098 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:48:13,730 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:48:13,734 [INFO] Article 5 processed successfully.
+2025-06-08 07:48:13,735 [INFO] News agent completed for query:  AI LLM
+2025-06-08 07:48:13,736 [INFO] Processing article 1: 无需切换窗口：Mastercard 的 Agent Pay 改变企业使用 AI 搜索的方式
+2025-06-08 07:48:20,837 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:48:25,985 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:48:25,987 [INFO] Article 1 processed successfully.
+2025-06-08 07:48:25,989 [INFO] Processing article 2: 十大最佳人工智能加密交易机器人（10 年 2025 月）
+2025-06-08 07:48:29,774 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:48:38,688 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:48:38,694 [INFO] Article 2 processed successfully.
+2025-06-08 07:48:38,697 [INFO] Processing article 3: AEON推出AI支付以推动未来基于加密的自动化现实世界商业
+2025-06-08 07:48:40,962 [WARNING] Could not extract main content for AEON推出AI支付以推动未来基于加密的自动化现实世界商业
+2025-06-08 07:48:40,962 [INFO] Processing article 4: 亚太服务流动市场,《2034年规模报告》
+2025-06-08 07:48:45,179 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:48:53,436 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:48:53,446 [INFO] Article 4 processed successfully.
+2025-06-08 07:48:53,446 [INFO] Processing article 5: 从“开放”到“进化”： AI Agent驱动的银行服务范式跃迁——以平安银行数字化转型为例
+2025-06-08 07:48:57,833 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-08 07:49:05,952 [INFO] ✅ OpenRouter summarization successful with model deepseek/deepseek-chat-v3-0324:free
+2025-06-08 07:49:05,958 [INFO] Article 5 processed successfully.
+2025-06-08 07:49:05,960 [INFO] News agent completed for query:  支付系统中的AI
+2025-06-08 07:49:05,960 [INFO] Processing article 1: 透过魔镜：斯科尔科沃研究院最新AI技术教你如何识别"奇怪图像"
+2025-06-08 07:49:09,936 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:09,936 [INFO] Retrying request to /chat/completions in 0.459444 seconds
+2025-06-08 07:49:12,173 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:12,174 [INFO] Retrying request to /chat/completions in 0.999374 seconds
+2025-06-08 07:49:15,037 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:15,038 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:16,588 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:16,588 [INFO] Retrying request to /chat/completions in 0.378323 seconds
+2025-06-08 07:49:18,358 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:18,359 [INFO] Retrying request to /chat/completions in 0.865735 seconds
+2025-06-08 07:49:20,773 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:20,773 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-r1-0528:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:22,718 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:22,719 [WARNING] ❌ ModelScope MOTA summarization failed with model deepseek-ai/DeepSeek-V3-0324: Error code: 400 - {'error': {'code': 'invalid_request_error', 'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'param': None, 'type': 'invalid_request_error'}, 'request_id': 'c925b852-712f-4321-a0cb-b54817a9c7d2'}
+2025-06-08 07:49:23,234 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:23,235 [WARNING] ❌ ModelScope MOTA summarization failed with model  deepseek-ai/DeepSeek-R1-0528: Error code: 400 - {'errors': {'message': 'Invalid model id:  deepseek-ai/DeepSeek-R1-0528'}, 'request_id': '2199819a-e750-4b00-af69-415b58b4ce79'}
+2025-06-08 07:49:23,235 [ERROR] ❌ All summarization attempts failed.
+2025-06-08 07:49:23,235 [INFO] Article 1 processed successfully.
+2025-06-08 07:49:23,235 [INFO] Processing article 2: 谷歌启动“AI未来基金”！欲发掘下一个OpenAI
+2025-06-08 07:49:26,917 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:26,917 [INFO] Retrying request to /chat/completions in 0.446119 seconds
+2025-06-08 07:49:29,169 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:29,170 [INFO] Retrying request to /chat/completions in 0.888289 seconds
+2025-06-08 07:49:31,831 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:31,832 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:33,137 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:33,138 [INFO] Retrying request to /chat/completions in 0.451696 seconds
+2025-06-08 07:49:35,216 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:35,217 [INFO] Retrying request to /chat/completions in 0.899857 seconds
+2025-06-08 07:49:37,517 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:37,518 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-r1-0528:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:39,102 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:39,103 [WARNING] ❌ ModelScope MOTA summarization failed with model deepseek-ai/DeepSeek-V3-0324: Error code: 400 - {'error': {'code': 'invalid_request_error', 'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'param': None, 'type': 'invalid_request_error'}, 'request_id': '7dffbbb3-de0f-49a6-a446-24afc418e054'}
+2025-06-08 07:49:39,614 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:39,615 [WARNING] ❌ ModelScope MOTA summarization failed with model  deepseek-ai/DeepSeek-R1-0528: Error code: 400 - {'errors': {'message': 'Invalid model id:  deepseek-ai/DeepSeek-R1-0528'}, 'request_id': '0e123b21-6dc8-4fb4-acff-52bdf5f17cb5'}
+2025-06-08 07:49:39,615 [ERROR] ❌ All summarization attempts failed.
+2025-06-08 07:49:39,616 [INFO] Article 2 processed successfully.
+2025-06-08 07:49:39,616 [INFO] Processing article 3: 如何用上AI，用好AI？"2025腾讯云AI产业应用峰会"定档5月21日
+2025-06-08 07:49:44,735 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:44,735 [INFO] Retrying request to /chat/completions in 0.436534 seconds
+2025-06-08 07:49:46,885 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:46,886 [INFO] Retrying request to /chat/completions in 0.820503 seconds
+2025-06-08 07:49:49,594 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:49,595 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340200000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:51,186 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:51,186 [INFO] Retrying request to /chat/completions in 0.463360 seconds
+2025-06-08 07:49:53,018 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:53,019 [INFO] Retrying request to /chat/completions in 0.945536 seconds
+2025-06-08 07:49:55,492 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:49:55,493 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-r1-0528:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340200000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:49:57,229 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:57,230 [WARNING] ❌ ModelScope MOTA summarization failed with model deepseek-ai/DeepSeek-V3-0324: Error code: 400 - {'error': {'code': 'invalid_request_error', 'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'param': None, 'type': 'invalid_request_error'}, 'request_id': 'd18039f8-b9b4-44c7-8061-f7f820a42c2b'}
+2025-06-08 07:49:57,700 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:49:57,700 [WARNING] ❌ ModelScope MOTA summarization failed with model  deepseek-ai/DeepSeek-R1-0528: Error code: 400 - {'errors': {'message': 'Invalid model id:  deepseek-ai/DeepSeek-R1-0528'}, 'request_id': 'e2adff18-2b3a-4907-829c-d0bda94c67f5'}
+2025-06-08 07:49:57,701 [ERROR] ❌ All summarization attempts failed.
+2025-06-08 07:49:57,701 [INFO] Article 3 processed successfully.
+2025-06-08 07:49:57,701 [INFO] Processing article 4: 辉达火力全开秀技术！最新AI平台HB300问世
+2025-06-08 07:50:00,915 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:00,916 [INFO] Retrying request to /chat/completions in 0.447956 seconds
+2025-06-08 07:50:03,165 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:03,166 [INFO] Retrying request to /chat/completions in 0.760579 seconds
+2025-06-08 07:50:05,631 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:05,631 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:50:07,060 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:07,061 [INFO] Retrying request to /chat/completions in 0.454686 seconds
+2025-06-08 07:50:08,903 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:08,903 [INFO] Retrying request to /chat/completions in 0.822532 seconds
+2025-06-08 07:50:11,468 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:11,468 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-r1-0528:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:50:14,330 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:50:14,331 [WARNING] ❌ ModelScope MOTA summarization failed with model deepseek-ai/DeepSeek-V3-0324: Error code: 400 - {'error': {'code': 'invalid_request_error', 'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'param': None, 'type': 'invalid_request_error'}, 'request_id': 'e4ecf2ab-ceb5-4d52-8f6d-6b1c84ed8eee'}
+2025-06-08 07:50:14,739 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:50:14,740 [WARNING] ❌ ModelScope MOTA summarization failed with model  deepseek-ai/DeepSeek-R1-0528: Error code: 400 - {'errors': {'message': 'Invalid model id:  deepseek-ai/DeepSeek-R1-0528'}, 'request_id': 'c1f61629-dd20-4b6c-a3bc-fcdb7d04b1e4'}
+2025-06-08 07:50:14,741 [ERROR] ❌ All summarization attempts failed.
+2025-06-08 07:50:14,741 [INFO] Article 4 processed successfully.
+2025-06-08 07:50:14,741 [INFO] Processing article 5: 王自如谈离开格力：正当想把最新AI技术融入到构想中时，终场哨声响了_手机新浪网
+2025-06-08 07:50:18,938 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:18,939 [INFO] Retrying request to /chat/completions in 0.484454 seconds
+2025-06-08 07:50:21,299 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:21,299 [INFO] Retrying request to /chat/completions in 0.814596 seconds
+2025-06-08 07:50:23,957 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:23,958 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:50:25,236 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:25,237 [INFO] Retrying request to /chat/completions in 0.411926 seconds
+2025-06-08 07:50:27,159 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:27,160 [INFO] Retrying request to /chat/completions in 0.810684 seconds
+2025-06-08 07:50:29,286 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:29,287 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-r1-0528:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340800000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:50:32,208 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:50:32,210 [WARNING] ❌ ModelScope MOTA summarization failed with model deepseek-ai/DeepSeek-V3-0324: Error code: 400 - {'error': {'code': 'invalid_request_error', 'message': 'Invalid max_tokens value, the valid range of max_tokens is [1, 8192]', 'param': None, 'type': 'invalid_request_error'}, 'request_id': 'c9ef149a-026c-40b0-b195-404c50711ea9'}
+2025-06-08 07:50:32,967 [INFO] HTTP Request: POST https://api-inference.modelscope.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-06-08 07:50:32,969 [WARNING] ❌ ModelScope MOTA summarization failed with model  deepseek-ai/DeepSeek-R1-0528: Error code: 400 - {'errors': {'message': 'Invalid model id:  deepseek-ai/DeepSeek-R1-0528'}, 'request_id': 'f9272a3b-41dd-4df3-97b3-ccc2d448fb76'}
+2025-06-08 07:50:32,969 [ERROR] ❌ All summarization attempts failed.
+2025-06-08 07:50:32,969 [INFO] Article 5 processed successfully.
+2025-06-08 07:50:32,970 [INFO] News agent completed for query:  最新AI技术
+2025-06-08 07:50:32,970 [INFO] Processing article 1: 大模型结构化推理优势难复制到垂直领域！最新法律AI评估标准来了，抱抱脸评测集趋势第一
+2025-06-08 07:50:39,112 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:39,112 [INFO] Retrying request to /chat/completions in 0.432512 seconds
+2025-06-08 07:50:41,268 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:41,268 [INFO] Retrying request to /chat/completions in 0.836040 seconds
+2025-06-08 07:50:43,822 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:43,824 [WARNING] ❌ OpenRouter summarization failed with model deepseek/deepseek-chat-v3-0324:free: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749340260000'}, 'provider_name': None}}, 'user_id': 'user_2y5PEbkyLQQzaKTNRwwXL6tiGN2'}
+2025-06-08 07:50:45,261 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:45,262 [INFO] Retrying request to /chat/completions in 0.415025 seconds
+2025-06-08 07:50:46,997 [INFO] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-06-08 07:50:46,998 [INFO] Retrying request to /chat/completions in 0.970981 seconds
+2025-06-08 07:50:48,090 [INFO] ensuring close

@@ -1,0 +1,51 @@
+By Michael Bystrov, Chief Revenue Officer at Noda.
+
+As Open Banking continues to transform the financial landscape, its journey from simple Pay-by-Bank solutions to sophisticated, automated payment mechanisms like Variable Recurring Payments (VRP) is a story of innovation, regulation, and customer-centric evolution. VRP represents the next frontier, enabling seamless, flexible, and intelligent payments that go beyond traditional recurring payment systems.
+
+Open Banking began as a response to the European Union’s PSD2 regulation, designed to increase competition and innovation in financial services. By granting secure access to bank account data through APIs, Open Banking enabled third-party providers (TPPs) to introduce new payment solutions, such as Pay-by-Bank. These solutions allowed direct bank-to-bank transactions, offering benefits like reduced costs and faster settlements.
+
+However, one-off transactions, while revolutionary, left gaps in convenience for use cases like subscription services, bill payments, and dynamic transactions with variable amounts. Enter VRP, an Open Banking innovation designed to address these gaps by automating payments while maintaining transparency, security, and user control.
+
+Variable Recurring Payments allow customers to authorise third-party providers to make multiple payments from their account without requiring repeated manual authorisations. Unlike traditional direct debits, VRPs:
+
+The UK has emerged as a pioneer in VRP adoption, driven by proactive regulatory frameworks. In 2021, the Competition and Markets Authority (CMA) mandated major UK banks to implement VRP for "sweeping" — transfers between a customer’s own accounts, such as moving excess funds to savings accounts.
+
+Building on this foundation, the UK is now expanding VRP into "non-sweeping" use cases, such as payments to third-party merchants for subscriptions or variable bills. As of 2023, banks like NatWest and HSBC are piloting VRP for commercial scenarios, with regulators aiming to extend its adoption across low-risk sectors by 2025.
+
+Reports like the Open Banking Implementation Entity (OBIE) roadmap suggest that VRP could eventually replace direct debits in many use cases, offering consumers more control and businesses reduced transaction fees.
+
+Opportunities:
+
+Cost Efficiency for Merchants
+
+By bypassing traditional card networks, VRPs eliminate interchange fees, providing a cost-effective alternative for recurring payments.
+
+Enhanced Customer Experience
+
+VRPs offer a frictionless experience with automated, secure, and flexible payments, increasing customer satisfaction and retention.
+
+Scalability for Businesses
+
+Dynamic payment models like VRPs open doors for innovative services, from personalised subscription plans to automated bill payments.
+
+Challenges:
+
+Bank Readiness
+
+Many banks are still upgrading their infrastructure to support VRP capabilities, which can slow adoption.
+
+Consumer Awareness
+
+Educating consumers about the benefits and security of VRPs is critical to driving adoption.
+
+Regulatory Harmonisation
+
+While the UK leads in VRP adoption, other markets lag behind due to varying regulatory frameworks, potentially hindering global scalability.
+
+The evolution from Pay-by-Bank to VRP signals a shift toward a more dynamic and intelligent payment ecosystem. For businesses, this means opportunities to offer innovative payment models, reduce costs, and build stronger customer relationships. For consumers, VRPs promise a blend of automation, flexibility, and control previously unavailable with traditional payment systems.
+
+As Open Banking continues to evolve, the collaboration between regulators, banks, and fintechs will be crucial. The focus should be on addressing challenges like standardisation, interoperability, and consumer education to unlock the full potential of VRPs.
+
+At Noda, we are at the forefront of Open Banking innovation, helping businesses integrate secure, efficient, and scalable payment solutions. With our expertise in Pay-by-Bank and a commitment to pioneering VRP capabilities, we empower merchants to stay ahead in the rapidly evolving financial ecosystem.
+
+The journey from one-off transactions to intelligent, automated payments is just beginning, and VRPs are poised to redefine how businesses and consumers interact financially. The question is not if VRPs will become mainstream, but when.
