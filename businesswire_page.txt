@@ -1,51 +1,57 @@
-By Michael Bystrov, Chief Revenue Officer at Noda.
+Professor of Computer Science, City St George's, University of London
 
-As Open Banking continues to transform the financial landscape, its journey from simple Pay-by-Bank solutions to sophisticated, automated payment mechanisms like Variable Recurring Payments (VRP) is a story of innovation, regulation, and customer-centric evolution. VRP represents the next frontier, enabling seamless, flexible, and intelligent payments that go beyond traditional recurring payment systems.
+Artur Garcez does not work for, consult, own shares in or receive funding from any company or organisation that would benefit from this article, and has disclosed no relevant affiliations beyond their academic appointment.
 
-Open Banking began as a response to the European Union’s PSD2 regulation, designed to increase competition and innovation in financial services. By granting secure access to bank account data through APIs, Open Banking enabled third-party providers (TPPs) to introduce new payment solutions, such as Pay-by-Bank. These solutions allowed direct bank-to-bank transactions, offering benefits like reduced costs and faster settlements.
+City St George's, University of London provides funding as a founding partner of The Conversation UK.
 
-However, one-off transactions, while revolutionary, left gaps in convenience for use cases like subscription services, bill payments, and dynamic transactions with variable amounts. Enter VRP, an Open Banking innovation designed to address these gaps by automating payments while maintaining transparency, security, and user control.
+View all partners
 
-Variable Recurring Payments allow customers to authorise third-party providers to make multiple payments from their account without requiring repeated manual authorisations. Unlike traditional direct debits, VRPs:
+The main problem with big tech’s experiment with artificial intelligence (AI) is not that it could take over humanity. It’s that large language models (LLMs) like Open AI’s ChatGPT, Google’s Gemini and Meta’s Llama continue to get things wrong, and the problem is intractable.
 
-The UK has emerged as a pioneer in VRP adoption, driven by proactive regulatory frameworks. In 2021, the Competition and Markets Authority (CMA) mandated major UK banks to implement VRP for "sweeping" — transfers between a customer’s own accounts, such as moving excess funds to savings accounts.
+Known as hallucinations, the most prominent example was perhaps the case of US law professor Jonathan Turley, who was falsely accused of sexual harassment by ChatGPT in 2023.
 
-Building on this foundation, the UK is now expanding VRP into "non-sweeping" use cases, such as payments to third-party merchants for subscriptions or variable bills. As of 2023, banks like NatWest and HSBC are piloting VRP for commercial scenarios, with regulators aiming to extend its adoption across low-risk sectors by 2025.
+OpenAI’s solution seems to have been to basically “disappear” Turley by programming ChatGPT to say it can’t respond to questions about him, which is clearly not a fair or satisfactory solution. Trying to solve hallucinations after the event and case by case is clearly not the way to go.
 
-Reports like the Open Banking Implementation Entity (OBIE) roadmap suggest that VRP could eventually replace direct debits in many use cases, offering consumers more control and businesses reduced transaction fees.
+The same can be said of LLMs amplifying stereotypes or giving western-centric answers. There’s also a total lack of accountability in the face of this widespread misinformation, since it’s difficult to ascertain how the LLM reached this conclusion in the first place.
 
-Opportunities:
+We saw a fierce debate about these problems after the 2023 release of GPT-4, the most recent major paradigm in OpenAI’s LLM development. Arguably the debate has cooled since then, though without justification.
 
-Cost Efficiency for Merchants
+The EU passed its AI Act in record time in 2024, for instance, in a bid to be world leader in overseeing this field. But the act relies heavily on AI companies to regulate themselves without really addressing the issues in question. It hasn’t stopped tech companies from releasing LLMs worldwide to hundreds of millions of users and collecting their data without proper scrutiny.
 
-By bypassing traditional card networks, VRPs eliminate interchange fees, providing a cost-effective alternative for recurring payments.
+Meanwhile, the latest tests indicate that even the most sophisticated LLMs remain unreliable. Despite this, the leading AI companies still resist taking responsibility for errors.
 
-Enhanced Customer Experience
+Unfortunately LLMs’ tendencies to misinform and reproduce bias can’t be solved with gradual improvements over time. And with the advent of agentic AI, where users will soon be able to assign projects to an LLM such as, say, booking their holiday or optimising the payment of all their bills each month, the potential for trouble is set to multiply.
 
-VRPs offer a frictionless experience with automated, secure, and flexible payments, increasing customer satisfaction and retention.
+The emerging field of neurosymbolic AI could solve these issues, while also reducing the enormous amounts of data required for training LLMs. So what is neurosymbolic AI and how does it work?
 
-Scalability for Businesses
+LLMs work using a technique called deep learning, where they are given vast amounts of text data and use advanced statistics to infer patterns that determine what the next word or phrase in any given response should be. Each model – along with all the patterns it has learned – is stored in arrays of powerful computers in large data centres known as neural networks.
 
-Dynamic payment models like VRPs open doors for innovative services, from personalised subscription plans to automated bill payments.
+LLMs can appear to reason using a process called chain-of-thought, where they generate multi-step responses that mimic how humans might logically arrive at a conclusion, based on patterns seen in the training data.
 
-Challenges:
+Undoubtedly, LLMs are a great engineering achievement. They are impressive at summarising text and translating, and may improve the productivity of those diligent and knowledgeable enough to spot their mistakes. Nevertheless they have great potential to mislead because their conclusions are always based on probabilities – not understanding.
 
-Bank Readiness
+A popular workaround is called “human-in-the-loop”: making sure that humans using AIs still make the final decisions. However, apportioning blame to humans does not solve the problem. They’ll still often be misled by misinformation.
 
-Many banks are still upgrading their infrastructure to support VRP capabilities, which can slow adoption.
+LLMs now need so much training data to advance that we’re now having to feed them synthetic data, meaning data created by LLMs. This data can copy and amplify existing errors from its own source data, such that new models inherit the weaknesses of old ones. As a result, the cost of programming AIs to be more accurate after their training – known as “post-hoc model alignment” – is skyrocketing.
 
-Consumer Awareness
+It also becomes increasingly difficult for programmers to see what’s going wrong because the number of steps in the model’s thought process become ever larger, making it harder and harder to correct for errors.
 
-Educating consumers about the benefits and security of VRPs is critical to driving adoption.
+Neurosymbolic AI combines the predictive learning of neural networks with teaching the AI a series of formal rules that humans learn to be able to deliberate more reliably. These include logic rules, like “if a then b”, such as “if it’s raining then everything outside is normally wet”; mathematical rules, like “if a = b and b = c then a = c”; and the agreed upon meanings of things like words, diagrams and symbols. Some of these will be inputted directly into the AI system, while it will deduce others itself by analysing its training data and doing “knowledge extraction”.
 
-Regulatory Harmonisation
+This should create an AI that will never hallucinate and will learn faster and smarter by organising its knowledge into clear, reusable parts. For example if the AI has a rule about things being wet outside when it rains, there’s no need for it to retain every example of the things that might be wet outside – the rule can be applied to any new object, even one it has never seen before.
 
-While the UK leads in VRP adoption, other markets lag behind due to varying regulatory frameworks, potentially hindering global scalability.
+During model development, neurosymbolic AI also integrates learning and formal reasoning using a process known as the “neurosymbolic cycle”. This involves a partially trained AI extracting rules from its training data then instilling this consolidated knowledge back into the network before further training with data.
 
-The evolution from Pay-by-Bank to VRP signals a shift toward a more dynamic and intelligent payment ecosystem. For businesses, this means opportunities to offer innovative payment models, reduce costs, and build stronger customer relationships. For consumers, VRPs promise a blend of automation, flexibility, and control previously unavailable with traditional payment systems.
+This is more energy efficient because the AI needn’t store as much data, while the AI is more accountable because it’s easier for a user to control how it reaches particular conclusions and improves over time. It’s also fairer because it can be made to follow pre-existing rules, such as: “For any decision made by the AI, the outcome must not depend on a person’s race or gender”.
 
-As Open Banking continues to evolve, the collaboration between regulators, banks, and fintechs will be crucial. The focus should be on addressing challenges like standardisation, interoperability, and consumer education to unlock the full potential of VRPs.
+The first wave of AI in the 1980s, known as symbolic AI, was actually based on teaching computers formal rules that they could then apply to new information. Deep learning followed as the second wave in the 2010s, and many see neurosymbolic AI as the third.
 
-At Noda, we are at the forefront of Open Banking innovation, helping businesses integrate secure, efficient, and scalable payment solutions. With our expertise in Pay-by-Bank and a commitment to pioneering VRP capabilities, we empower merchants to stay ahead in the rapidly evolving financial ecosystem.
+It’s easiest to apply neurosymbolic principles to AI in niche areas, because the rules can be clearly defined. So it’s no surprise that we’ve seen it first emerge in Google’s AlphaFold, which predicts protein structures to help with drug discovery; and AlphaGeometry, which solves complex geometry problems.
 
-The journey from one-off transactions to intelligent, automated payments is just beginning, and VRPs are poised to redefine how businesses and consumers interact financially. The question is not if VRPs will become mainstream, but when.
+For more broad-based AIs, China’s DeepSeek uses a learning technique called “distillation” which is a step in the same direction. But to make neurosymbolic AI fully feasible for general models, there still needs to be more research to refine their ability to discern general rules and perform knowledge extraction.
+
+It’s unclear to what extent LLM makers are working on this already. They certainly sound like they’re heading in the direction of trying to teach their models to think more cleverly, but they also seem wedded to the need to scale up with ever larger amounts of data.
+
+The reality is that if AI is going to keep advancing, we will need systems that adapt to novelty from only a few examples, that check their understanding, that can multitask and reuse knowledge to improve data efficiency and that can reason reliably in sophisticated ways.
+
+This way, well designed digital technology could potentially even offer an alternative to regulation, because the checks and balances would be built into the architecture and perhaps standardised across the industry. There’s a long way to go, but at least there’s a path ahead.

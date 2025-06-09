@@ -11,7 +11,7 @@ def fetch_page_uc(url):
     return html
 
 # 抓取页面
-url = "https://hackernoon.com/from-one-off-transactions-to-intelligent-payments-the-evolution-of-open-banking-with-vrp"
+url = "https://theconversation.com/neurosymbolic-ai-is-the-answer-to-large-language-models-inability-to-stop-hallucinating-257752"
 html = fetch_page_uc(url)
 
 # 写入文件
