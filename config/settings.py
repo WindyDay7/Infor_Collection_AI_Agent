@@ -33,3 +33,8 @@ MODELS = dict(config.items("models"))
 
 # QUERY_LIST
 QUERY_LIST = config["queries"]["query_list"].split(",")
+
+# EMAIL configuration
+EMAIL_USER = config["email"]["email_user"]
+EMAIL_PASSWORD = config["email"]["email_password"]
+EMAIL_RECEIVER = config["email"]["email_receiver"]

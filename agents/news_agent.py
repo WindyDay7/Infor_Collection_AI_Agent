@@ -8,11 +8,32 @@ from core.logger import logger
 import os
 from datetime import datetime
 from config import settings
+import yagmail
+
 
 from typing import List, Dict
 
 OUTPUT_DIR = "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+"""
+发送邮件
+"""
+def send_email_with_file(subject: str, body: str, to: str, filepath: str):
+    yag = yagmail.SMTP(
+        user=settings.EMAIL_USER,
+        password=settings.EMAIL_PASSWORD,
+        host='smtp.qq.com',
+        port=465,
+        smtp_ssl=True  # <<<<< 关键
+    )
+    yag.send(
+        to=to,
+        subject=subject,
+        contents=[body, filepath],
+    )
+    logger.info("✅ Email sent successfully.")
+
 
 def run_news_agent(querys: List[str]):
     logger.info("Starting news agent...")
@@ -53,3 +74,10 @@ def run_news_agent(querys: List[str]):
         query_num += 1
     
     logger.info("All queries processed successfully.")
+    # 只发送最后生成的 markdown 文件
+    send_email_with_file(
+        subject=f"📰 每周 AI 相关的最新报道 - {date_str}",
+        body="请查收每周的 AI 相关报道摘要。",
+        to=settings.EMAIL_RECEIVER,
+        filepath=out_path
+    )
