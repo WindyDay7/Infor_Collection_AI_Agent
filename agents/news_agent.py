@@ -9,7 +9,7 @@ import os
 from datetime import datetime
 from config import settings
 import yagmail
-
+import time
 
 from typing import List, Dict
 
@@ -59,6 +59,8 @@ def run_news_agent(querys: List[str]):
                 continue
 
             md = summarize_article(article, content)
+            # 为整体限流, 各种 API 的调用都可以限流
+            time.sleep(10)  # 限流
             markdown_block.append(md)
             logger.info(f"Article {i+1} processed successfully.")
 
